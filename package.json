@@ -9,6 +9,7 @@
     "test": "jest",
     "coverage": "jest --coverage",
     "lint": "eslint .",
+    "lint-fix": "eslint . --fix .",
     "build": "webpack --mode production",
     "doc": "jsdoc -c jsdoc.conf.json",
     "preshow:coverage": "npm run coverage",
